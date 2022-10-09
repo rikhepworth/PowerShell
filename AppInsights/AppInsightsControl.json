@@ -1,0 +1,20 @@
+{
+    "ConnectionString": "<App Insights Connection String>",
+    "AvailabilityTests": [
+        {
+            "Name": "BBC",
+            "FQDN": "news.bbc.co.uk",
+            "UrlPath": [
+                "/"
+            ],
+            "Method": "GET",
+            "ExpectedResponseCode": 200
+        }
+    ],
+    "Events": [
+        {
+            "Name": "MyCustomEvent",
+            "CustomPropertyValue": "Apples"
+        }
+    ]
+}
